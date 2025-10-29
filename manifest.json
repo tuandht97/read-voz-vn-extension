@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Voz Content Reader",
+  "version": "1.0",
+  "description": "Lấy nội dung và đọc tự động từ bài viết bất kỳ trên Vozvn",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
